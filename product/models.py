@@ -1,5 +1,4 @@
 from django.db import models
-from django.forms import CharField, DecimalField
 
 # Create your models here.
 

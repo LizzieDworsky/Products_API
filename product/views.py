@@ -11,7 +11,7 @@ def products_list(request):
         products = Product.object.all()
         serializer = ProductSerializer(products, many=True)
         return Response(serializer.data)
-    elif request.method == 'PUT':
+    elif request.method == 'POST':
         serializer = ProductSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
