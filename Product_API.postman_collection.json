@@ -95,7 +95,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Nintendo Switch\",\r\n    \"description\": \"Handheld game console by Nintendo. Designed to play at home or on the go!\",\r\n    \"price\": 300.00,\r\n    \"inventory_quantity\": 10\r\n}",
+					"raw": "{\r\n    \"title\": \"Nintendo Switch\",\r\n    \"description\": \"Handheld game console by Nintendo. Designed to play at home or on the go!\",\r\n    \"price\": 300.00,\r\n    \"inventory_quantity\": 10,\r\n    \"image\": \"https://cdn.vox-cdn.com/thumbor/gvLxPM5hTPay4eDzvSiQWnun8Nw=/0x0:1500x1038/1200x1200/filters:focal(750x519:751x520)/cdn.vox-cdn.com/uploads/chorus_asset/file/23186378/71UiJ0O6vTL._SL1500_.jpg\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -128,7 +128,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/5/",
+					"raw": "http://127.0.0.1:8000/api/products/8/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -140,7 +140,7 @@
 					"path": [
 						"api",
 						"products",
-						"5",
+						"8",
 						""
 					]
 				}
